@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/imagenes/favicon.png" />
+
+
+  <!--fuentes importadas de la pagina-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@200&display=swap"
+    rel="stylesheet">
+
+  <!--iconos de la pagina-->
+
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link href="css/hover.css" rel="stylesheet" media="all">
+
+  <!--estilo propio de la pagina -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="sass/custom.css">
+
+  <title>Instituto Bíblico Misión Evangelica Metodista Pentecostal</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- WAthsapp flotante-->
+    <a href="https://api.whatsapp.com/send?phone=56966442543&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20Cursos%20%20."
+      class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <!--fin boton wsp-->
+
+    <!--encabezado-->
+
+    <header class="cabecera">
+
+
+      <!--Reloj página-->
+      <div id="reloj">
+        00 : 00 : 00
+       </div>
+ <!-- Fin Reloj página-->
+
+
+      <a href="" class="text-decoration-none">
+        <h1 class="text-dark titulo shadow-sm p-3 mb-5 bg-body rounded "> <img class=" border border-5  border-end"
+            src="assets/imagenes/logo.png" img-fluid " alt=" logo" width="100" height="100"> Instituto Bíblico
+          Misión Evangelica Metodista Pentecostal <img src="assets/imagenes/cruz.png" class="img-fluid" alt="cruz"
+            width="70">
+        </h1>
+      </a>
+
+     
+
+      <button type="button" class="btn btn-dark rounded-pill   " onclick="cambiarModo()">Modo  Noche <i
+          class="bi bi-brightness-high text-warning"></i>/ <i class="bi bi-moon text-primary"></i></button>
+
+      <!--Fin encabezado-->
+
+      <!-- menu de navegacion-->
+
+      <div class="container  sticky-top ">
+
+
+        <nav class=" navbar navbar-expand-lg navbar-light  bg-danger mt-3  ">
+
+
+          <div class="container-fluid ">
+
+
+            <a class="  navbar-brand text-white  hvr-underline-from-left hvr-pulse-grow  " href="#">Menu de
+              navegacion</a>
+
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class=" collapse navbar-collapse sticky-top " id="navbarNavDropdown">
+
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active  text-white  hvr-underline-from-left hvr-pulse-grow " aria-current="page"
+                    href="#quienessomos2">¿Quienes Somos?</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link  text-white hvr-underline-from-left hvr-pulse-grow " href="#mision2">Mision</a>
+                </li>
+
+
+                <li class="nav-item  ">
+                  <a class="nav-link  text-white  hvr-underline-from-left hvr-pulse-grow " href="#vision2">Vision</a>
+                </li>
+
+
+                <li class="nav-item ">
+                  <a class="nav-link  text-white hvr-underline-from-left hvr-pulse-grow "
+                    href="preguntasfrecuentes.html" target="_blank">Preguntas Frecuentes</a>
+                </li>
+
+
+                <li class="nav-item  ">
+                  <a class="nav-link  text-white hvr-underline-from-left hvr-pulse-grow "
+                    href="#requisitos2">Requisitos</a>
+                </li>
+
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle  text-white hvr-underline-from-left hvr-pulse-grow " href="#"
+                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nuestros Cursos
+                  </a>
+
+                  <li class="nav-item  ">
+                    <a class="nav-link  text-white hvr-underline-from-left hvr-pulse-grow "
+                      href="galeriaFotos.html">Galeria de Fotos</a>
+                  </li>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item bg-danger text-light text-center border border-5  " href="curso2.html"
+                        target="_blank">
+                        Diplomado en Teología mención <br> en Historia y Doctrina de la Iglesia
+                      </a></li>
+                    <li><a class="dropdown-item bg-danger text-light text-center  border border-5" href="curso1.html "
+                        target="_blank">Diplomado en Historia del cristianismo <br> desde el siglo xvii al siglo xix y
+                        sus corrientes teológicas</a></li>
+
+                    <li><a class="dropdown-item  bg-danger text-light text-center py-3 border border-5"
+                        href="assets/pdf/diploma.pdf" target="_blank">Formato Diploma</a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li class="nav-item">
+
+                  <a class="nav-link  text-white hvr-underline-from-left hvr-pulse-grow " href="plantel.html">Plantel
+                    Docente </a>
+
+                </li>
+
+                <!--Donar paypal-->
+                <div id="paypal">
+                  <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                    <input type="hidden" name="business" value="GUQ4PW74ZDTYA" />
+                    <input type="hidden" name="no_recurring" value="0" />
+                    <input type="hidden" name="item_name"
+                      value="mantener el sitio vivo y de esta manera ofrecer clases gratuitas" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0"
+                      name="submit" title="PayPal - The safer, easier way to pay online!"
+                      alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_CL/i/scr/pixel.gif" width="1" height="1" />
+  
+                  </form>
+                </div>
+               
+
+              </ul>
+            </div>
+          </div>
+      </div>
+
+      </nav>
+
+
+      <!--fin de menu de navegacion-->
+      <!-- carrusel-->
+
+      <div class="container">
+
+        <h1 class="text-light text-center "></h1>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/imagenes/portada.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/imagenes/2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <!--4to-->
+            <div class="carousel-item">
+              <img src="assets/imagenes/3.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>three slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <img src="assets/imagenes/4.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>four slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+   
+      <!--fin carrousel-->
+
+      <div id="quienessomos2"></div>
+      <!---Quienes Somos-->
+      <div id="quienessomos">
+        <div class="container ">
+
+
+          <h2 class="text-center py-3 p-3 mb-2  mt-5 p-3 mb-2 bg-danger text-white">¿Quienes Somos?</h2>
+
+          <img src="assets/imagenes/quienes.png " class="img-fluid rounded mx-auto d-block m rounded-start" width="15%"
+            height="40%" alt="">
+
+          <div class=" d-flex justify-content-center row row-cols-2 row-cols-lg-3 g-2  py-3 ">
+
+
+
+            <p class="text-center  mt-4 col-8  ">
+              <strong> El Instituto Bíblico Misión Evangélica Metodista Pentecostal (MEMP) </strong> es una institución
+              bíblica teológica, sin fines de lucro, incorporada bajo la ley de libertad de culto de Chile
+              (ley 19.638 del Ministerio del Interior y que explicaremos más abajo).Como institución de educación
+              teológica nuestro objetivo principal es proveer las
+              herramientas necesarias para ayudar en la preparación y desarrollo del carácter de
+              hombres y mujeres a través de la enseñanza de las diferentes áreas que involucra el
+              conocimiento de Dios y su obra creadora
+
+            </p>
+
+
+
+          </div>
+
+<div class="container">
+
+
+  <h2 class="text-center py-3 p-3 mb-2  mt-5 p-3 mb-2 bg-danger text-white ">¿QUÉ NOS DISTINGUE DE LOS DEMÁS
+    INSTITUTOS BÍBLICOS?</h2>
+
+    <div class="row">
+      <p class="text-center  mt-4 col-lg-3 ">
+        Nos distingue que buscamos el conocimiento de Dios no solo a través de la fe o de la
+        Biblia, sino qué a través del conocimiento integral, puesto que nuestro Instituto Bíblico
+        <strong>Misión Evangélica Metodista Pentecostal (MEMP) </strong>destaca por tener una mirada
+        histórica por sobre todas las cosas y también argumentativa con evidencias
+        sustentables a través del conocimiento en las diferentes áreas, por ejemplo:
+    
+      </p>
+
+      <p class="text-center  mt-4 col-lg-3">
+        El Instituto Bíblico Misión Evangelica Metodista Pentecostal (MEMP) es una institución educativa,
+        cristiana evangélica e interdenominacional. Está abierta a todas las corporaciones cristianas
+        evangélicas de Chile. Una corporación dedicada a la formación integral basada en principios y valores
+        cristianos fundamentados en la Santa Biblia.
+    
+      </p>
+
+
+      <p class="text-center  mt-2 col-lg-3"> <strong>histórico: </strong> <br>los relatos de historiadores de la época que
+        explican las costumbres
+        y formas de vida de los tiempos bíblicos y que nos ayudan a entender un sin fin de
+        conductas y prácticas que no tendrían sentido para nosotros, ya que son de otro tiempo
+        y otra cultura</p>
+    
+    </div>
+
+
+    <div class="row">
+
+      <p class="text-center  mt-4 col-lg-3 "> <strong>los padres de la Iglesia: </strong> <br> nos enseñan los ritos y
+        tradiciones de los primeros
+        cristianos después de la época de los apóstoles y que habían aprendido de quienes
+        conocieron a Jesús.</p>
+
+        <p class="text-center  mt-4 col-lg-3  "> <strong> de los padres de la Iglesia: </strong> <br> nos enseñan los ritos y
+          tradiciones de los primeros
+          cristianos después de la época de los apóstoles y que habían aprendido de quienes
+          conocieron a Jesús.</p>
+
+          <p class="text-center  col-lg-5 "> <strong>Hermenéutica: </strong> <br> nos enseña la forma correcta de
+            interpretar un texto a través de los
+            escritos, palabras, figuras retóricas y sentido original lo que quieren dar a conocer las
+            santas escrituras, ya que el lenguaje tiene vida propia y cambia, no solo en el tiempo,
+            sino que también cambia a través de la geografía y de las guerras. E incluso en estos
+            tiempos en nuestros países de habla hispana podemos notar que hay palabras que
+            significan cosas diferentes, aunque hablamos el mismo idioma.</p>
+
+    </div>
+
+
+  <h3 class="  text-center mb-5 bg-danger text-center text-light">Otras materias importantes en las que profundizamos son:</h3>
+
+  <ul id="topicos">
+    <li>La formación del Canon del Nuevo y Antiguo Testamento.</li>
+    <li>Los 400 años de silencio.</li>
+    <li>Panorama bíblico/li>
+    <li>Plan de Salvación</li>
+    <li>La reforma del siglo XVI </li>
+    <li> Conocimiento de las sectas Principales </li>
+    <li>Las cuatro diferentes escuelas de interpretación Escatológica (Apocalipsis),
+      entre otras materias importantes.</li>
+  </ul>
+
+  
+  <h3 class="bg-danger text-center text-light">Que pretendemos</h3>
+
+
+  <div class="container">
+
+    <div class="row">
+
+      <p class="text-center  mt-4 col-lg-3 ">La Ley dice que ningún instituto bíblico o teológico está acreditado por el
+        Ministerio de
+        Educación de Chile. Este Instituto funciona bajo la Ley 19.638 del Ministerio del Interior,
+        Secretaría del Interior capítulo 3 artículo 8 letras a y b. promulgada 01/10/1999 y
+        publicada el 14/10/1999. </p>
+
+
+        <p class="text-center  mt-4  col-lg-3">Artículo 8º. Las entidades religiosas podrán crear personas jurídicas de
+          conformidad
+          con la legislación vigente. En especial, podrán: </p>
+
+
+          <p class="text-center  mt-4  col-lg-3" >  a) Fundar, mantener y dirigir en forma autónoma institutos de formación y de estudios
+            teológicos o doctrinales, instituciones educacionales, de beneficencia o humanitarias</p>
+
+
+            <p class="text-center  mt-4  col-lg-3" >b) Crear, participar, patrocinar y fomentar asociaciones, corporaciones y fundaciones,
+              para la realización de sus fines."</p>
+    </div>
+
+    
+  </div>
+
+  
+
+
+ 
+
+
+</div>
+
+
+</div>
+
+          
+        <!---Fin Quienes Somos-->
+
+        <!--Mision -->
+
+        <div id="mision2">
+          <br>
+          <br>
+        </div>
+        <div id="mision"> </div>
+          <div class="container">
+
+
+
+            <h2 class="text-center py-3 p-3 mb-2 bg-danger text-white">Nuestra Mision</h2>
+
+            <img src="assets/imagenes/mision.png " class="img-fluid rounded mx-auto d-block m" width="150px" height=""
+              alt="">
+            <div class=" d-flex justify-content-center row row-cols-2 row-cols-lg-5 g-2  ">
+
+              <p class="text-center mt-4  ">
+                Nuestra mision es entregar al pueblo de Dios todas las herramientas teológicas, incluyendo las
+                históricas,
+                arqueológicas, científicas e idiomáticas para el perfeccionamiento teológico y apologético (defensa de
+                la
+                fe)
+              </p>
+              <p class="text-center mt-4 "> <strong>1ra de Pedro 3:15 Reina-Valera 1960
+                  15 sino santificad a Dios el Señor en vuestros corazones, y estad siempre preparados para presentar
+                  defensa con mansedumbre y reverencia ante todo el que os demande razón de la esperanza que hay en
+                  vosotros</strong> </p>
+            </div>
+
+          </div>
+          <!---fin de mision-->
+
+          <!--VIsion-->
+          <div id="vision2">
+            <br><br>
+          </div>
+          <div id="vision"></div>
+            <div class="container ">
+
+
+              <h2 class="text-center  py-3 p-3 mb-2 bg-danger text-white">Nuestra Vision</h2>
+              <img src="assets/imagenes/vision.png " class="img-fluid rounded mx-auto d-block m" width="150px" height=""
+                alt="">
+              <div class=" d-flex justify-content-center row row-cols-2 row-cols-lg-5 g-2">
+
+
+
+                <p class="text-center  mt-4 col-8 ">
+                  Entregar estas herramientas apologéticas al resto del país y al extranjero usando para ello los
+                  diferentes medios y plataformas existentes, como son: clases virtuales, uso de plataformas y app de
+                  internet, libros físicos, e-reader, PDF, etc. Y cualquier otro medio tecnológico que ayude a concretar
+                  este fin.
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <!--fin de Vision-->
+
+
+          <!--Requisitos-->
+<div id="requisitos2">
+  <br><br>
+</div>
+          <div id="requisitos"></div>
+            <div class="container  ">
+
+
+              <h2 class="text-center  py-3 p-3 mb-2 bg-danger text-white">Requisitos Ingreso</h2>
+              <img src="assets/imagenes/requisitos.png " class="img-fluid rounded mx-auto d-block m" width="250px"
+                height="" alt="">
+              <div class=" d-flex justify-content-center row row-cols-2 row-cols-lg-3 g-2   ">
+
+                <ul class="list-group mb-5 mt-2 pt-5 col-10 ">
+                  <li class="list-group-item"> <i class="bi bi-check2-square"></i> mayoria de edad (18) <i
+                      class="bi bi-person-check-fill"></i> </li>
+                  <li class="list-group-item"><i class="bi bi-check2-square"></i> Acceso a Internet <i
+                      class="bi bi-globe"></i></li>
+                  <li class="list-group-item"><i class="bi bi-check2-square"></i> Tener WhatsApp <i
+                      class="bi bi-whatsapp"></i> y Zoom <i class="bi bi-camera-video bg"></i> </li>
+                  <li class="list-group-item"><i class="bi bi-check2-square"></i> llenar formulario de <b>ingreso</b> <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdUbD6u4_1xnzOKhze4iEJn0XcQj7e7RzQwUL-1LRdSfYyZWw/viewform"
+                      target="_blank"> Inscribirme</a></li>
+                  <li class="list-group-item"><i class="bi bi-check2-square"></i> Comprometerse a rendir pruebas y
+                    asistencia</li>
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!--fin de requisitos-->
+
+
+          <!--tarjetas-->
+
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 ">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUbD6u4_1xnzOKhze4iEJn0XcQj7e7RzQwUL-1LRdSfYyZWw/viewform"
+                    target="_blank">
+                    <img src="assets/imagenes/matriculate.png" class="card-img-top" alt="...">
+                  </a>
+
+                  <div class="card-body text-dark">
+                    <h5 class="card-title ">Matriculate</h5>
+                    <p class="card-text ">matriculate 100% Gratuito ,Revisa nuestros Diferentes Cursos
+                      .</p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUbD6u4_1xnzOKhze4iEJn0XcQj7e7RzQwUL-1LRdSfYyZWw/viewform"
+                      target="_blank"> <button
+                        class="btn btn-success hvr-underline-from-left hvr-pulse-grow ms-5 ">Matricularme</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <a href="preguntasfrecuentes.html">
+                    <img src="assets/imagenes/preguntas.png" class="card-img-top" alt="...">
+                  </a>
+
+                  <div class="card-body text-dark">
+                    <h5 class="card-title">¿Tienes Dudas?</h5>
+                    <p class="card-text">Visita nuestra seccion <b>Preguntas frecuentes</b> <a
+                        class="text-decoration-none" href="preguntasfrecuentes.html">Presiona Aqui!!</a> </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="preguntasfrecuentes.html " target="_blank"><button
+                        class="btn btn-success hvr-underline-from-left hvr-pulse-grow ms-5">ir a preguntas
+                        Frecuentes</button></a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card h-100  ">
+                  <img src="assets/imagenes/trivia.png" class="card-img-top" alt="...">
+                  <div class="card-body text-dark">
+                    <h5 class="card-title">Trivia</h5>
+                    <p class="card-text">¿Quieres poner a prueba tus conocimientos?,completa este Quist</p>
+                  </div>
+                  <div class="card-footer">
+
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4oBestxkshWJQM6suMjj9iS4StiwOmgbAlWhTDHi7KAbYww/viewform"
+                      target="_blank"> <button
+                        class="btn btn-success hvr-underline-from-left hvr-pulse-grow ms-5 ">Responder</button></a>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--fin de tarjeta-->
+
+
+          <!-- botones para compartir -->
+
+          <div class="container">
+
+            <div id="rrss">
+
+              <center>
+                <h2 class="text-center  my-4 bg-danger text-white"> ¿ nos ayudas compartiendo?</h2>
+                <p class=" ">asi mas gente puede educarse 100% Gratuito</p>
+              </center>
+              <br>
+
+              <div class=" container d-flex justify-content-center">
+                <div class=" a2a_kit a2a_kit_size_32 a2a_default_style">
+                  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                  <a class="a2a_button_facebook"></a>
+                  <a class="a2a_button_twitter"></a>
+                  <a class="a2a_button_email"></a>
+                  <a class="a2a_button_whatsapp"></a>
+                  <a class="a2a_button_telegram"></a>
+                  <a class="a2a_button_facebook_messenger"></a>
+                  <a class="a2a_button_outlook_com"></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Fin botones para compartir -->
+
+          <!--comienzo de Footer-->
+
+          <div class="container">
+            <!-- Remove the container if you want to extend the Footer to full width. -->
+            <div class="container my-5">
+              <!-- Footer -->
+              <footer class="text-center text-white bg-danger">
+                <!-- Grid container -->
+                <div class="container">
+                  <!-- Section: Links -->
+                  <section class="mt-5">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="mailto:institutobiblicometodista@gmail.com"
+                            class="text-white text-decoration-none">Ayuda</a>
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold ">
+                          <i class="bi bi-whatsapp"></i>
+                          <a href="https://api.whatsapp.com/send?phone=56966442543&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20Cursos%20%20."
+                            target="_blank" class="text-white text-decoration-none">Contacto</a>
+
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                  </section>
+                  <!-- Section: Links -->
+
+                  <hr class="my-5" />
+
+                  <!-- Section: Text -->
+                  <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-lg-8">
+                        <p>
+                          ¿Quieres más información y orientación de nuestros programas de estudios?
+                          Escríbenos por WhatsApp o correo electrónico, estaremos encantados de ayudarte
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- Section: Text -->
+
+                  <!-- Section: Social -->
+                  <h4>Siguenos</h4>
+
+                  <br>
+                  <section class="text-center mb-5">
+                    <a href="https://www.facebook.com/profile.php?id=100011251659273"
+                      class="text-white me-4 text-decoration-none">
+                      <i class="icon-facebook"></i>
+                    </a>
+                    <a href="mailto:institutobiblicometodista@gmail.com" class="text-white me-4 text-decoration-none">
+                      <i class="icon-mail"></i>
+                    </a>
+
+                    <a href="tel:+56966442543" class="text-white me-4 text-decoration-none hvr-grow-rotate">
+                      <i class="bi bi-telephone-forward-fill"></i>
+                    </a>
+
+                    <a href="#" class="text-white me-4 text-decoration-none">
+
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="" class="text-white me-4 text-decoration-none">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+
+                  </section>
+                  <!-- Section: Social -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                  © 2021 todos los derechos reservados
+
+                </div>
+                <!-- Copyright -->
+              </footer>
+              <!-- Footer -->
+            </div>
+            <!-- End of .container -->
+          </div>
+          <!--Fin de Footer-->
+
+          <!--social bar-->
+
+          <div class="container-bar">
+
+
+            <div class="icon-social">
+              <a href="https://www.facebook.com/profile.php?id=100011251659273" target="_blank" class="icon-facebook">
+                <span id="title">Facebook</span>
+              </a>
+              <a href="#" class="icon-youtube">
+                <span id="title">Youtube</span>
+              </a>
+
+              <a href="mailto:institutobiblicometodista@gmail.com" target="_blank" class="icon-mail">
+                <span id="title">Gmail</span>
+              </a>
+
+
+            </div>
+          </div>
+
+          <!--fin social bar-->
+
+
+
+
+
+          <!---cierre container-->
+
+          <!-- Optional JavaScript; choose one of the two! -->
+
+          <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+
+          <!-- Option 2: Separate Popper and Bootstrap JS -->
+          <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+          <script type="text/javascript">
+            function cambiarModo() {
+              var cuerpoweb = document.body;
+              cuerpoweb.classList.toggle("oscuro");
+            }
+          </script>
+
+<!--bot-->
+  <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(213366)</script> 
+ -->
+
+<!-- fin bot-->
+         <script src="reloj.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script async src="https://static.addtoany.com/menu/page.js"></script>
+</body>
+
+</html>

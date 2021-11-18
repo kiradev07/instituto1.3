@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color:rgb(218, 218, 218);
+  font-family: "Indie Flower", cursive;
+  font-family: "Raleway", sans-serif;
+}
+
+.titulo{
+  font-family: "Brush Script MT";
+  text-align: center;
+}
+/*Social bar */
+
+.container-bar {
+  width: 100%;
+  max-width: 50px;
+  position: fixed;
+  left: 0;
+  top: 69%;
+}
+
+.container-bar a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  transition: all 500ms ease;
+  color: #fff;
+}
+
+.container-bar a:hover {
+  background: #1c1c1c;
+}
+.container-bar .icon-facebook {
+  background: #3b5998;
+  border-radius: 0px 5px 0px 0px;
+}
+.container-bar .icon-youtube {
+  background: #e52a23;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .icon-mail {
+  background: #943835;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .icon-compartir {
+  background: green;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar #title {
+  position: absolute;
+  background: #1c1c1c;
+  padding: 0px 8px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 15px;
+  top: 12px;
+  left: 0px;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+.container-bar a:hover #title {
+  opacity: 1;
+  visibility: visible;
+  left: 64px;
+}
+.container-bar #title:after {
+  position: absolute;
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 6px solid #1c1c1c;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  right: 100%;
+  top: 8px;
+}
+#btn-social {
+  display: none;
+}
+.fa-play {
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: inline-block;
+  transform: rotate(180deg);
+  color: #49b0e6;
+}
+#btn-social:checked ~ .fa-play {
+  transform: rotate(0deg);
+}
+.icon-social {
+  transition: all 0.4s;
+  transform: translateX(0%);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+#btn-social:checked ~ .icon-social {
+  transform: translateX(-100%);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
+}
+
+/* wathsapp boton */
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 100px;
+  right: 10px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+/* PDF */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* visor de */
+.pdfView {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+
+
+/* modo oscuro */
+
+.oscuro{ 
+  background-color: #1f1f1f; 
+  color: #f1eded; 
+  border-radius: 10% 30% 50% 70%;
+}
+
+
+#topicos{
+  color: blue;
+}
+
+ /* reloj */
+
+#reloj { width: 143px; height: 10px; padding: 5px 10px; 
+  font: bold 1.5em dotum, "lucida sans", arial; text-align: center;
+  float: right; margin: 1em 3em 1em 1em; 
+color: black;
+}
+
+
+
+   /*bot */
+
+   #sntch_button
+{   
+    width: 60px !important;
+    height: 60px !important;
+    right: 10px !important;
+    bottom: 10px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    border-radius: 50% !important;
+}
+#sntch_webchat iframe {
+    width: 600px !important;
+    height: 600px !important;
+}
+
+#sntch_webchat {
+    width: 600px !important;
+    height: 600px !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    border-radius: 20px 20px 0px 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}
+#sntch_close {
+    top: 12px !important;
+    right: 8px !important;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 26px !important;
+    line-height: 40px !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    cursor: pointer !important;
+}
+
+
+#paypal{
+  padding: 10px;
+  width: 3px;
+  height: 2px;
+}
+
+
+
+
+
+
+
+
+
